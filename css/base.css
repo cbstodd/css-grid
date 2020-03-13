@@ -1,0 +1,27 @@
+body {
+  background-color: #ebe9e9;
+  color: #444444;
+}
+
+.card {
+  font-family: Nunito, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #444444;
+  color: #ebe9e9;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #242424;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 300ms;
+  overflow: hidden;
+}
+
+.card:hover {
+  background-color: #242424;
+  color: #ebe9e9;
+  cursor: pointer;
+}

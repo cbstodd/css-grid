@@ -1,4 +1,2 @@
-body {
-  background-color: #ebe9e9;
-  color: #444444;
-}
+@import 'base.css';
+@import '12-column.css';
