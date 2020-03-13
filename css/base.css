@@ -1,6 +1,48 @@
+:root {
+  /* AGA Colors */
+  --midnight: #122033;
+  --granite: #678598;
+  --ocean: #00588a;
+  --sky: #008fd5;
+  --ice: #69badf;
+  --water: #abe1fa;
+  --steel: #8fb0c5;
+  --ash: #94a3ac;
+  --silver: #dcddde;
+  --cloud: #f2f6f8;
+  --avocado: #67952e;
+  --grass: #9bcb40;
+  --lime: #c8da2b;
+  --plum: #96157c;
+  --gum: #d0167c;
+  --brick: #b02a30;
+  --valencia: #f58320;
+  --gold: #faa61a;
+}
+
 body {
   background-color: #ebe9e9;
   color: #444444;
+}
+
+h1,
+h2 {
+  color: var(--plum);
+  font-family: Faustina, Charter, Cambria, serif;
+}
+
+h3,
+h4 {
+  color: var(--granite);
+  font-family: Faustina, Charter, Cambria, serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h5,
+h6 {
+  font-family: Nunito, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .card {
@@ -18,6 +60,7 @@ body {
   border-radius: 4px;
   transition: all 300ms;
   overflow: hidden;
+  box-shadow: 1px 0 1px 1px #999999;
 }
 
 .card:hover {

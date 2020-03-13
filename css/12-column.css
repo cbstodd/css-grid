@@ -1,11 +1,25 @@
 .basic-grid {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
 
-    /* Columns */
-    /* grid-template-columns: 1fr 1fr 1fr ; */
-    /* grid-template-columns: repeat(12, 1fr); */
-    /* grid-template-columns: repeat(12, minmax(240px, 1fr)); */
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /* Columns */
+  /* grid-template-columns: 1fr 1fr 1fr ; */
+  /* grid-template-columns: repeat(12, 1fr); */
+  /* grid-template-columns: repeat(12, minmax(240px, 1fr)); */
 
+  /* Stretches accross to fit */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.basic-grid-two {
+  display: grid;
+  gap: 1rem;
+
+  /* Columns */
+  /* grid-template-columns: 1fr 1fr 1fr ; */
+  /* grid-template-columns: repeat(12, 1fr); */
+  /* grid-template-columns: repeat(12, minmax(240px, 1fr)); */
+
+  /* Does not go beyond the max width of each column */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
